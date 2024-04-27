@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+ let principal = 43049;
+let rate = 5; 
+let n= 12;
+let time = 3; 
+  rate = rate / 100;
+   let amount =principal * Math.pow((1 + (rate / n)), (n * time));
+  amount   = Math.round(amount* 100) / 100;
+  console.log(`The compound interest after ${time} years is: ${parseInt(amount)}`);
+
+ 
+
+    </script>
+</body>
+</html>
